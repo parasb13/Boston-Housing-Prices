@@ -15,11 +15,12 @@ The dataset contains the following features:
 * DIS: weighted distances to five Boston employment centres
 * RAD: index of accessibility to radial highways
 * PTRATIO: pupil-teacher ratio by town
-B: 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
-LSTAT: % lower status of the population
-The target variable is:
+* B: 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+* LSTAT: % lower status of the population
 
+The target variable is:
 * MEDV: Median value of owner-occupied homes in $1000s
+
 ## Usage
 This dataset can be used for various regression tasks, including:
 
